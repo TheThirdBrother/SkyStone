@@ -101,6 +101,7 @@ public class ConceptVuforiaSkyStoneNavigation extends LinearOpMode {
      * 'parameters.vuforiaLicenseKey' is initialized is for illustration only, and will not function.
      * A Vuforia 'Development' license key, can be obtained free of charge from the Vuforia developer
      * web site at https://developer.vuforia.com/license-manager.
+     * Lisense = AUGEMlz/////AAABmVBT4HSRDUnfk39IWYUA22JLY7+7uyapqkPDZl0k3ZMWKpj4e5ubRw/feWbFK8Kr/CQouoqMqLLenqpWgDZ2y281vJ4d0a4M9shdOCn6c5RdmrNOD9iFkKkfn5gRoTv8bufi6EV3lVm9FaIHTfzemflWQ5nGJ4ltW5Hk2ZyZTR+kjCZj7oupw27VGUP+hodCkFrIpb4u8Z2WLShLjdcVh5/oil2+LIFOmDdrdq5UDHmUjYxH3o/HzWCPTPUrgSzpW5BNdY/nPVlTaGA4zkXRZrpgbADDT76LAluqeSkq4wszDZjmH5ip3gzkOqSduKBM26JCLBazQUKBVy+hmBoNhpFyuVG8T/iR6SRLagTjCrDQ
      *
      * Vuforia license keys are always 380 characters long, and look as if they contain mostly
      * random data. As an example, here is a example of a fragment of a valid key:
@@ -109,8 +110,8 @@ public class ConceptVuforiaSkyStoneNavigation extends LinearOpMode {
      * and paste it in to your code on the next line, between the double quotes.
      */
     private static final String VUFORIA_KEY =
-            " -- YOUR NEW VUFORIA KEY GOES HERE  --- ";
-
+            "AUGEMlz/////AAABmVBT4HSRDUnfk39IWYUA22JLY7+7uyapqkPDZl0k3ZMWKpj4e5ubRw/feWbFK8Kr/CQouoqMqLLenqpWgDZ2y281vJ4d0a4M9shdOCn6c5RdmrNOD9iFkKkfn5gRoTv8bufi6EV3lVm9FaIHTfzemflWQ5nGJ4ltW5Hk2ZyZTR+kjCZj7oupw27VGUP+hodCkFrIpb4u8Z2WLShLjdcVh5/oil2+LIFOmDdrdq5UDHmUjYxH3o/HzWCPTPUrgSzpW5BNdY/nPVlTaGA4zkXRZrpgbADDT76LAluqeSkq4wszDZjmH5ip3gzkOqSduKBM26JCLBazQUKBVy+hmBoNhpFyuVG8T/iR6SRLagTjCrDQ";
+//
     // Since ImageTarget trackables use mm to specifiy their dimensions, we must use mm for all the physical dimension.
     // We will define some constants and conversions here
     private static final float mmPerInch        = 25.4f;
